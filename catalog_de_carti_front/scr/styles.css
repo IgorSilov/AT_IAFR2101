@@ -1,0 +1,133 @@
+/* styles.css */
+
+/* Aplicarea unei scheme de culori calme și plăcute */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa; /* Fundal gri-albăstrui deschis */
+    color: #333; /* Culoare text gri închis */
+  }
+  
+  /* Stilizare container general */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Stilizare antet */
+  header {
+    background-color: #a8dadc; /* Albastru deschis */
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #1d3557; /* Albastru închis */
+  }
+  
+  /* Stilizare link-uri */
+  a {
+    color: #1d3557;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stilizare butoane */
+  button {
+    background-color: #457b9d; /* Albastru mediu */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1d3557;
+  }
+  
+  /* Stilizare formular */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1d3557;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: #457b9d;
+    outline: none;
+  }
+  
+  form button {
+    background-color: #1d3557;
+  }
+  
+  form p {
+    color: red;
+    margin: 0;
+  }
+  
+  /* Stilizare lista de cărți */
+  .book-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .book-list li h2 {
+    margin: 0 0 10px;
+    color: #1d3557;
+  }
+  
+  .book-list li p {
+    margin: 5px 0;
+  }
+  
+  .book-list li .actions {
+    margin-top: 10px;
+  }
+  
+  .book-list li .actions button {
+    margin-right: 5px;
+  }
+  
+  /* Stilizare subsol */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #a8dadc;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
